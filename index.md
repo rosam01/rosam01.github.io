@@ -1,3 +1,7 @@
+Domain | Comment
+------ | -------
+ruxit.com  | Dynatrace-related
+
 #### Scan segment
 &#35; -n: no dns resolution\
 &#35; -sn: ping scan\
