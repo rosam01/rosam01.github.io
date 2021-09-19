@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Wisdom</title>
+  <title>The Urban Monk</title>
   
   
   <meta name="author" content="Martin Rosa">
@@ -13,7 +13,7 @@
   
   
 
-  <link rel="alternate" type="application/rss+xml" title="Wisdom - ..." href="http://caffecaffe.ca/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="The Urban Monk - Gathers resources to help people in their search for inner peace." href="https://rosam01.github.io/feed.xml">
 
   
 
@@ -62,7 +62,7 @@
   
 
   
-  <meta property="og:title" content="Wisdom">
+  <meta property="og:title" content="The Urban Monk">
   
 
    
@@ -73,12 +73,12 @@
   <meta property="og:type" content="website">
 
   
-  <meta property="og:url" content="http://caffecaffe.ca/assets/js/staticman.js">
-  <link rel="canonical" href="http://caffecaffe.ca/assets/js/staticman.js">
+  <meta property="og:url" content="https://rosam01.github.io/assets/js/staticman.js">
+  <link rel="canonical" href="https://rosam01.github.io/assets/js/staticman.js">
   
 
   
-  <meta property="og:image" content="http://caffecaffe.ca/assets/img/pray256.png">
+  <meta property="og:image" content="https://rosam01.github.io/assets/img/pray256.png">
   
 
 
@@ -88,7 +88,7 @@
   <meta name="twitter:creator" content="@">
 
   
-  <meta name="twitter:title" content="Wisdom">
+  <meta name="twitter:title" content="The Urban Monk">
   
 
   
@@ -96,7 +96,7 @@
   
 
   
-  <meta name="twitter:image" content="http://caffecaffe.ca/assets/img/pray256.png">
+  <meta name="twitter:image" content="https://rosam01.github.io/assets/img/pray256.png">
   
 
   
@@ -111,7 +111,7 @@
     
 
   
-    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom "><a class="navbar-brand" href="http://caffecaffe.ca/">Wisdom</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom "><a class="navbar-brand" href="https://rosam01.github.io/">The Urban Monk</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -131,7 +131,7 @@
   
     <div class="avatar-container">
       <div class="avatar-img-border">
-        <a href="http://caffecaffe.ca/">
+        <a href="https://rosam01.github.io/">
           <img alt="Navbar avatar" class="avatar-img" src="/assets/img/pray256.png" />
         </a>
       </div>
