@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://rosam01.github.io/jekyll/update/2020/05/29/welcome-to-jekyll.html</loc>
-<lastmod>2020-05-29T18:24:37-04:00</lastmod>
+<loc>https://rosam01.github.io/jekyll/update/2021/09/18/welcome.html</loc>
+<lastmod>2021-09-18T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>https://rosam01.github.io/about/</loc>
@@ -14,9 +14,24 @@
 <loc>https://rosam01.github.io/</loc>
 </url>
 <url>
+<loc>https://rosam01.github.io/notes/</loc>
+</url>
+<url>
 <loc>https://rosam01.github.io/tags.html</loc>
 </url>
 <url>
 <loc>https://rosam01.github.io/talks/</loc>
+</url>
+<url>
+<loc>https://rosam01.github.io/assets/pdf/Nikiphoros_the_Monk.pdf</loc>
+<lastmod>2021-09-21T18:37:07-04:00</lastmod>
+</url>
+<url>
+<loc>https://rosam01.github.io/assets/pdf/St-Isaiah_the_Solitary-On_Guarding_the_Intellect.pdf</loc>
+<lastmod>2021-09-21T18:37:07-04:00</lastmod>
+</url>
+<url>
+<loc>https://rosam01.github.io/assets/pdf/St-Symeon_the_New_Theologian-The_Three_Methods_of_Prayer.pdf</loc>
+<lastmod>2021-09-21T18:37:07-04:00</lastmod>
 </url>
 </urlset>
