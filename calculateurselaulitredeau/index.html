@@ -1102,12 +1102,12 @@
         <p><small>(${parseFloat(farineLevain.toFixed(1)).toString()} g farine, ${parseFloat(eauLevain.toFixed(1)).toString()} g eau)</small></p>
         <p>🌾 Farine totale : ${parseFloat(farineTotale.toFixed(1)).toString()} g</p>
         <p><small>(${farine} g farine + ${parseFloat(farineLevain.toFixed(1)).toString()} g farine du levain)</small></p>
-        <p>💧 Eau totale désirée : ${eauTotaleDesiree.toFixed(1)} g</p>
+        <p>💧 Eau totale désirée : ${parseFloat(eauTotaleDesiree.toFixed(1)).toString()} g</p>
         <p><small>(${parseFloat(farineTotale.toFixed(1)).toString()} g farine totale * ${parseFloat(hydration.toFixed(1)).toString()} % hydratation)</small></p>
-        <p>➕ Eau à ajouter : ${eauAjoutee.toFixed(1)} g</p>
-        <p><small>(${parseFloat(eauTotaleDesiree.toFixed(1)).toString()} g eau totale - ${parseFloat(eauLevain.toFixed(1)).toString()} g eau du levain)</small></p>
-        <p>🧂 <strong>Sel à ajouter : ${sel.toFixed(1)} g</strong></p>
-        <p><small>(${parseFloat(selLitre.toFixed(1)).toString()} g/L × ${eauLitres.toFixed(3)} L d’eau total)</small></p>
+        <p>➕ Eau à ajouter : ${parseFloat(eauAjoutee.toFixed(1)).toString()} g</p>
+        <p><small>(${parseFloat(eauTotaleDesiree.toFixed(1)).toString()} g eau totale désirée - ${parseFloat(eauLevain.toFixed(1)).toString()} g eau du levain)</small></p>
+        <p>🧂 <strong>Sel à ajouter : ${parseFloat(sel.toFixed(1)).toString()} g</strong></p>
+        <p><small>(${parseFloat(selLitre.toFixed(1)).toString()} g/L × ${parseFloat(eauLitres.toFixed(3)).toString()} L d’eau total)</small></p>
       `;
     });
   </script>
