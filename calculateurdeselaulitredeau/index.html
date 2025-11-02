@@ -74,11 +74,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#calculateur-de-sel-gl" class="md-skip">
-          Aller au contenu
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -464,8 +459,6 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
-      
-        
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
@@ -948,8 +941,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -964,7 +955,8 @@
                   
 
 
-<h1 id="calculateur-de-sel-gl">Calculateur de sel (g/L)</h1>
+  <h1>Calculateur de sel (g/L)</h1>
+
 <section id="calculateur-sel" style="margin:2rem 0;">
   <div class="calc-container">
     <form id="form-sel" class="calc-form">
@@ -974,8 +966,8 @@
       <label for="hydration">Hydratation de la pâte (%)</label>
       <input type="number" id="hydration" step="0.1" min="0" required class="input-calc">
 
-      <label for="levain">Levain (g)</label>
-      <input type="number" id="levain" min="0" class="input-calc">
+      <label for="pourcentage_levain">Levain (%)</label>
+      <input type="number" id="pourcentage_levain" step="0.1" min="0" required class="input-calc">
 
       <label for="hydration_levain">Hydratation du levain (%)</label>
       <input type="number" id="hydration_levain" value="100" min="0" required step="0.1" class="input-calc">
@@ -1076,14 +1068,17 @@
 
       const farine = parseFloat(document.getElementById('farine').value);
       const hydration = parseFloat(document.getElementById('hydration').value);
-      const levain  = parseFloat(document.getElementById('levain').value);
+      const pourcentageLevain = parseFloat(document.getElementById('pourcentage_levain').value);
       const hydrationLevain = parseFloat(document.getElementById('hydration_levain').value);
       const selLitre = parseFloat(document.getElementById('sel_litre').value);
 
-      if (isNaN(farine) || isNaN(hydration) || isNaN(selLitre) || farine <= 0) {
+      if (isNaN(farine) || isNaN(hydration) || isNaN(pourcentageLevain) || isNaN(selLitre) || farine <= 0) {
         document.getElementById('resultat').textContent = "⚠️ Veuillez entrer des valeurs valides.";
         return;
       }
+
+      // Calcul du levain à partir du pourcentage
+      const levain = farine * (pourcentageLevain / 100);
 
       const farineLevain = levain * 100 / (100 + hydrationLevain);
       const eauLevain   = levain - farineLevain;
@@ -1098,16 +1093,16 @@
       document.getElementById('resultat').innerHTML = `
         <h3 style="margin-top:0;">Résultats</h3>
         <p>🌾 Farine : ${farine} g</p>
-        <p>🍞 Levain : ${levain} g</p>
-        <p><small>(${parseFloat(farineLevain.toFixed(1)).toString()} g farine, ${parseFloat(eauLevain.toFixed(1)).toString()} g eau)</small></p>
+        <p>🫙 Levain : ${parseFloat(levain.toFixed(1)).toString()} g (${parseFloat(pourcentageLevain.toFixed(1)).toString()} %)</p>
+        <p><small>(${parseFloat(farineLevain.toFixed(1)).toString()} g farine + ${parseFloat(eauLevain.toFixed(1)).toString()} g eau)</small></p>
         <p>🌾 Farine totale : ${parseFloat(farineTotale.toFixed(1)).toString()} g</p>
         <p><small>(${farine} g farine + ${parseFloat(farineLevain.toFixed(1)).toString()} g farine du levain)</small></p>
         <p>💧 Eau totale désirée : ${parseFloat(eauTotaleDesiree.toFixed(1)).toString()} g</p>
-        <p><small>(${parseFloat(farineTotale.toFixed(1)).toString()} g farine totale * ${parseFloat(hydration.toFixed(1)).toString()} % hydratation)</small></p>
+        <p><small>(${parseFloat(farineTotale.toFixed(1)).toString()} g farine totale × ${parseFloat(hydration.toFixed(1)).toString()} % hydratation)</small></p>
         <p>➕ Eau à ajouter : ${parseFloat(eauAjoutee.toFixed(1)).toString()} g</p>
-        <p><small>(${parseFloat(eauTotaleDesiree.toFixed(1)).toString()} g eau totale désirée - ${parseFloat(eauLevain.toFixed(1)).toString()} g eau du levain)</small></p>
+        <p><small>(${parseFloat(eauTotaleDesiree.toFixed(1)).toString()} g eau totale désirée − ${parseFloat(eauLevain.toFixed(1)).toString()} g eau du levain)</small></p>
         <p>🧂 <strong>Sel à ajouter : ${parseFloat(sel.toFixed(1)).toString()} g</strong></p>
-        <p><small>(${parseFloat(selLitre.toFixed(1)).toString()} g/L × ${parseFloat(eauLitres.toFixed(3)).toString()} L d’eau total)</small></p>
+        <p><small>(${parseFloat(selLitre.toFixed(1)).toString()} g/L × ${parseFloat(eauLitres.toFixed(3)).toString()} L d’eau totale)</small></p>
       `;
     });
   </script>
