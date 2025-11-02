@@ -966,7 +966,7 @@
       <label for="hydration">Hydratation de la pâte (%)</label>
       <input type="number" id="hydration" step="0.1" min="0" required class="input-calc">
 
-      <label for="pourcentage_levain">Levain (%)</label>
+      <label for="pourcentage_levain">Levain (% de la farine)</label>
       <input type="number" id="pourcentage_levain" step="0.1" min="0" required class="input-calc">
 
       <label for="hydration_levain">Hydratation du levain (%)</label>
@@ -1089,6 +1089,7 @@
       const eauLitres  = eauTotale / 1000;
       const sel = selLitre * eauLitres;
       const hydrationReelle = (eauTotale / farineTotale) * 100;
+      const pourcentageSelFarine = (sel / farineTotale) * 100;
 
       document.getElementById('resultat').innerHTML = `
         <h3 style="margin-top:0;">Résultats</h3>
@@ -1101,7 +1102,7 @@
         <p><small>(${parseFloat(farineTotale.toFixed(1)).toString()} g farine totale × ${parseFloat(hydration.toFixed(1)).toString()} % hydratation)</small></p>
         <p>➕ Eau à ajouter : ${parseFloat(eauAjoutee.toFixed(1)).toString()} g</p>
         <p><small>(${parseFloat(eauTotaleDesiree.toFixed(1)).toString()} g eau totale désirée − ${parseFloat(eauLevain.toFixed(1)).toString()} g eau du levain)</small></p>
-        <p>🧂 <strong>Sel à ajouter : ${parseFloat(sel.toFixed(1)).toString()} g</strong></p>
+        <p>🧂 <strong>Sel à ajouter : ${parseFloat(sel.toFixed(1)).toString()} g </strong>(${parseFloat(pourcentageSelFarine.toFixed(1)).toString()} %)</p>
         <p><small>(${parseFloat(selLitre.toFixed(1)).toString()} g/L × ${parseFloat(eauLitres.toFixed(3)).toString()} L d’eau totale)</small></p>
       `;
     });
