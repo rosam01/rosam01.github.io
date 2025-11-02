@@ -980,7 +980,7 @@
       <label for="hydration_levain">Hydratation du levain (%)</label>
       <input type="number" id="hydration_levain" value="100" min="0" required step="0.1" class="input-calc">
 
-      <label for="sel_litre">Sel souhaité (g/L d’eau)</label>
+      <label for="sel_litre">Sel (g/L d’eau)</label>
       <input type="number" id="sel_litre" step="0.1" min="0" required class="input-calc">
 
       <button type="submit" id="btn-calc">Calculer</button>
@@ -1041,7 +1041,7 @@
     #btn-calc {
       margin-top: 0.5rem;
       padding: 0.7rem 1rem;
-      background-color: #434C5E; /* même ton que la barre de recherche */
+      background-color: #434C5E;
       color: #fff;
       border: none;
       border-radius: 4px;
@@ -1055,7 +1055,7 @@
       background-color: #3b4352;
     }
 
-    /* Adaptation mobile */
+    /* Mobile */
     @media (max-width: 720px) {
       .calc-container {
         flex-direction: column;
