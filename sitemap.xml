@@ -6,42 +6,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/autourdupetrin/</loc>
+         <loc>https://jeboulange.com/autour-du-petrin/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/autresartisans/</loc>
+         <loc>https://jeboulange.com/autres-artisans/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/baguettetradition/</loc>
+         <loc>https://jeboulange.com/boulangerie-pas-a-pas/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/boulangeriepasapas/</loc>
+         <loc>https://jeboulange.com/calculateur-de-sel-au-litre/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/calculateurdeselaulitredeau/</loc>
+         <loc>https://jeboulange.com/cap-boulangerie/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/capboulangerie/</loc>
+         <loc>https://jeboulange.com/ciril-hitz/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/cirilhitz/</loc>
-         <lastmod>2025-11-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jeboulange.com/devenirboulanger/</loc>
+         <loc>https://jeboulange.com/devenir-boulanger/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -51,7 +46,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/formationboulangerie/</loc>
+         <loc>https://jeboulange.com/formation-boulangerie/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -61,12 +56,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/fournildeseparis/</loc>
+         <loc>https://jeboulange.com/fournil-des-eparis/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/grainesdenoe/</loc>
+         <loc>https://jeboulange.com/generateur-de-recette/</loc>
+         <lastmod>2025-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jeboulange.com/graines-de-noe/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -76,42 +76,47 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/lafarine/</loc>
+         <loc>https://jeboulange.com/la-baguette-tradition/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/leble/</loc>
+         <loc>https://jeboulange.com/la-farine/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/lecroissant/</loc>
+         <loc>https://jeboulange.com/la-levure-osmotolerante/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/lekouignamann/</loc>
+         <loc>https://jeboulange.com/le-ble/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/lemalt/</loc>
+         <loc>https://jeboulange.com/le-croissant/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/lescone/</loc>
+         <loc>https://jeboulange.com/le-kouign-amann/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/lesel/</loc>
+         <loc>https://jeboulange.com/le-malt/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/levureosmotolerante/</loc>
+         <loc>https://jeboulange.com/le-scone/</loc>
+         <lastmod>2025-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jeboulange.com/le-sel/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -121,7 +126,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/nicolassoupiot/</loc>
+         <loc>https://jeboulange.com/nicolas-soupiot/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -131,7 +136,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jeboulange.com/sebastienlagrue/</loc>
+         <loc>https://jeboulange.com/sebastien-lagrue/</loc>
          <lastmod>2025-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
