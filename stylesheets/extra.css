@@ -3,3 +3,15 @@
   --md-primary-fg-color--light: #4A5568;
   --md-primary-fg-color--dark:  #4A5568;
 }
+
+.md-typeset a {
+  color: #2F5BA3;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+  font-weight: 500;
+  transition: color 0.15s ease-in-out, text-decoration 0.15s;
+}
+.md-typeset a:hover {
+  color: #1E88E5;
+  text-decoration-style: solid;
+}
