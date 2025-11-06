@@ -15,3 +15,6 @@
   color: #1E88E5;
   text-decoration-style: solid;
 }
+.md-nav__link--active {
+  color: #6798e7 !important;
+}
